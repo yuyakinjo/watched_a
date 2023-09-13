@@ -1,11 +1,11 @@
-name: watched workflow
+name: hello world
 
 on:
   push:
   workflow_call:
 
 jobs:
-  build:
+  hello_world:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
